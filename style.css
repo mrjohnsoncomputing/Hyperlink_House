@@ -1,0 +1,24 @@
+.room {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	border: 1px solid black;
+	background-position: cover;
+	background-color: beige;
+}
+
+.door {
+	background: url("images/door.jpg");
+	background-position: center;
+	background-size: 240px;
+	background-repeat: none;
+	position: absolute;
+	height: 200px;
+	width: 90px;
+	bottom: 0px;
+	border: 10px groove brown;
+}
+
+.rightDoor {
+	right: 0px;
+}
